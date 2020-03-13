@@ -1,0 +1,41 @@
+Host daniel-digitalocean
+	User daniel
+	Hostname 167.172.35.215
+	Port 22
+	IdentityFile ~/.ssh/id_rsa
+
+Host root-digitalocean
+	User root
+	Hostname 167.172.35.215 
+	Port 22
+	IdentityFile ~/.ssh/id_rsa
+
+Host planet-germany
+	User diku_IN5570
+	Hostname pl2.prakinf.tu-ilmenau.de
+	Port 22
+	IdentityFile ~/.ssh/planetlab
+
+Host planet-sweden
+	User diku_IN5570
+	Hostname cse-white.cse.chalmers.se
+	Port 22
+	IdentityFile ~/.ssh/planetlab
+
+Host planet-france
+	User diku_IN5570
+	Hostname ple41.planet-lab.eu
+	Port 22
+	IdentityFile ~/.ssh/planetlab
+
+Host planet-italy
+	User diku_IN5570
+	Hostname planetlab-1.ing.unimo.it
+	Port 22
+	IdentityFile ~/.ssh/planetlab
+
+Host planet-uk
+	User diku_IN5570
+	Hostname planetlab2.xeno.cl.cam.ac.uk
+	Port 22
+	IdentityFile ~/.ssh/planetlab
